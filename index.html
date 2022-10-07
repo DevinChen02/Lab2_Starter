@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
-    <link rel="icon" href="relatove_path" />
+    <link rel="icon" href="/my_icon.png" />
     <!--add favorite path-->
 </head>
 
@@ -98,10 +98,10 @@
                     Team address: <br>9500 Gilman Dr,
                 <br> La Jolla, CA 92093-5004
                 </p>
-_______________________________________________________________________________________________________
+
             <section>
                 <div>Interested in learning more? Fill out our form!</div>
-                <form action="" method="get" class="form-example">
+                <form action="1" method="get" class="form-example">
                     <div class="form-example">
                       <label for="name">Enter your name: </label>
                       <input type="text" name="name" id="name" required>
@@ -117,11 +117,11 @@ ________________________________________________________________________________
                     <fieldset>
                         <legend>Choose your favorite food!</legend>
                     
-                        <input type="radio" id="Burger king" name="restaurant" value="B">
-                        <label for="Burger king">Burger King</label><br>
+                        <input type="radio" id="Burgerking" name="restaurant" value="B">
+                        <label for="Burgerking">Burger King</label><br>
                     
-                        <input type="radio" id="Panda Express" name="restaurant" value="P">
-                        <label for="Panda Express">Panda Express</label><br>
+                        <input type="radio" id="PandaExpress" name="restaurant" value="P">
+                        <label for="PandaExpress">Panda Express</label><br>
                     
                         <input type="radio" id="Subway" name="restaurant" value="S">
                         <label for="Subway">Subway</label><br>
@@ -129,11 +129,14 @@ ________________________________________________________________________________
 
                   </form>
             <br>
+
+            <hr>
+            
             </section>
             Do you have feedbacks for us?
             <section>
                 <label for="feedbacks"></label>
-                <textarea rows="5" cols="33">
+                <textarea id = "feedbacks" name = "feedbacks" rows="5" cols="33">
                 Please provide feedbacks here. We will really appreaciate any suggestions or feedbacks.
                 </textarea>
             </section>
